@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Making a website</title>
+		<title>Laser cut pressfit project</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,7 +25,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a>Making a website</a></li>
+							<li class="active"><a>Laser cut pressfit project</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://twitter.com/96stebbi" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -41,42 +41,154 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">January 24, 2021</span>
-									<h1>Making a website<br /></h1>
-									<p>The purpose of this project was to design a functional website that will contain my resume, as well as all the projects that i complete in the course Manufacturing Processes (VÉL403G) at the University of Iceland.</p>
+									<span class="date">March 1, 2021</span>
+									<h1>Laser cut pressfit project<br /></h1>
+									<p>The purpose of this project was to design a parametric objest that will be laser cut and has to be press fitted together. This projecta was worked in the course Manufacturing Processes (VÉL403G) at the University of Iceland.</p>
 								</header>
-								<div class="image main"><img src="images/webdesign.jpg" alt="" /></div>
+								<p style="text-align:center;"><img src="images/lasercutting2.jpg" height="70%" width="70%" alt="" />
                                 <h3>The beginning</h3>
-                                <p>The first thing that I needed to do was to educate myself on the basics in Html programming. I decided to view the material that the professor of the course had uploaded to <a href="https://www.youtube.com/playlist?list=PLU4NWxEpJJumoJghcC5V3rjv0_VHE7IQr">Youtube</a>, as well as the website <a href="https://www.w3schools.com/html/default.asp">w3schools</a>. All of the information I gathered proved to be extremely helpful as the project became much clearer the more I learned about the Html language.</p>
-								<p>Since I had no previous experience with HTML, I decided to use a template from <a href="https://html5up.net">HTML5UP</a> to use as a starting point. The template that I started with is called "Massively", and I picked that template because of its looks.</p>
-                                <div class="image main"><img src="images/massively.PNG" alt="" /></div>
-                                <h3>Programs</h3>
-                                <h4>Brackets</h4>
-                                <p>For this project, I downloaded <a href="http://brackets.io/">Brackets</a> to edit the HTML code which I got from HTML5UP. The reason for why I chose to use Brackets is because you can click on the lightning in the top-right corner to see any changes you make in the code as soon as you save the changes, which is a great feature.</p>
-                                <div class="image main"><img src="images/brackets.PNG" alt="" /></div>
-                                <h4>Github</h4>
-                                <p>I already had a <a href="https://github.com/">Github</a> account, so I just needed to create a repository to host the files which make up the website. I also used Github to host my website duo to the fact that it is extremely easy to do it from there.</p>
-                                <p>I chose a convenient name for my repository, which is the same as the link I want people to be able to access my website through.</p>
-                                <div class="image main"><img src="images/repository.PNG" alt="" /></div>
-                                <h4>Git</h4>
-                                <p>Lastly, I had to download the program <a href="https://git-scm.com/downloads">Git</a>, which is used to track changes in a source code during software development. I mainly used Git to push the changes I made in the source code to my repository on Github.</p>
-                                <p>I went to the folder where all the files for my website were, and I pressed the right click button on the mouse and then pressed "Git bash here"</p>
-                                <div class="image main"><img src="images/gitbash.png" alt="" /></div>
-                                <p>Then i typed the following into the terminal that appears:</p>
-                                <p>1. echo "# StefanMar96.github.io" >> README.md</p>
-                                <p>2. git init</p>
-                                <p>3. git add README.md</p>
-                                <p>4. git commin -m "first commit"</p>
-                                <p>5. git branch -M main</p>
-                                <p>6. git remote add origin https://github.com/StefanMar96/StefanMar96.github.io.git</p>
-                                <p>7. git push -u origin main</p>
-                                <p>8. git add .</p>
-                                <p>9. git commit -m "first commit" .</p>
-                                <p>10. git push</p>
-                                <p>Now the files will have been pushed to my repository and it should look like this.</p>
-                                <div class="image main"><img src="images/repository2.PNG" alt="" /></div>
-                                <p>Now the only thing left to do is, click on settings on the repository, scroll down to GitHub Pages and click on source and change it to Main. Then I can see the url which can be used to access the website. </p>
-                                <div class="image main"><img src="images/public.PNG" alt="" /></div>
+                                <p>The first thing that I needed to do was to find an idea for an object to buid. I wanted to make something that I would actually use, and not something that I would just put on a shelf or something. I started to search the web for some inspiration and finally I saw <a href="https://www.youtube.com/watch?v=7riGolu7BpA&t=403s&ab_channel=AutodeskFusion360">this video</a> and decided that I wanted to make this object due to the fact that this is something that I will use in my everyday life.</p>
+								<p>I decided to make the object in the program <a href="https://www.autodesk.com/campaigns/education/fusion-360">Fusion 360</a> and since I had no previous experience with that program, I had to educate myself on that program. The professor of the course posted <a href="https://www.youtube.com/watch?v=9U2JPfkQpsE&ab_channel=HobbyistMaker">this video</a> as well as the previously linked video which gave me a deeper understanding in Fusion 360, now I was comfortable about starting my project. </p>
+                                
+                                <h4>Fusion 360</h4>
+                                <p>The most important part of the project in my opinion is th make the design out of set parameters to meake the design scaleable. I decided to measure the dimensions on my computer and calculate what the parameters shold be. For the parameter "kerf" I decided to put it as 0.2mm for the time being and change it later on when I have actually calculated what the kerf on the device is. As you can see, the size of the object is completely adjustable by changing the parameter called "main". If you want to make a similar laptop stand but have a bigger or a smaller computer than me, you can adjust the design to your computer simply by changing the parameter "main".</p>
+                                <div class="image main"><img src="images/parameters.PNG" alt="" /></div>
+                                <p>I started of by creating a component to the design and made that component one side of the object and sized it with the parameters that I had previously created.</p>
+                                <p style="text-align:center;"><img src="images/newcomponent.PNG" height="40%" width="40%" alt="" />
+                                <p style="text-align:center;"><img src="images/side.PNG" height="60%" width="60%" alt="" />
+                                    
+                                <p>I then needed to extrude the object with the parameter "þykkt" by pressing "e" on the keyboard and then clicking th object. After that I decided to round the edges with the parameter "rúnun" by pressing "f" on the keyboard and choosing the edges I wanted to round. After that I just had to copy the side component and paste another one with the distance between them set to the parameter "legBreidd" because that distance works perfectly for my computer. That side then became a new component in the design.</p>
+                                <p style="text-align:center;"><img src="images/leg2.PNG" height="40%" width="40%" alt="" />
+                                <p>After that was completed, I needed to make the top part of the design. I created a new component for the top and designed it on the plane that the slope of the sides are on. I did this by clicking "look at" and then the plane I wanted.</p>
+                                <p style="text-align:center;"><img src="images/lookat.PNG" height="40%" width="40%" alt="" />
+                                <p>First, I set the dimensions of the top according to the size of my computer with the previously established parameters and make a hole where one of the side is so that the object can later be pressfited together. I did this by drawing a rectangle on the sketch and positioned it with the parameters. After that I pressed "l" on the keyboard and made 2 a line from the center of the top to the center of the bottom, and another from the middle of the right side to the middle of the left side. After that, I selected both the lines and pressed "x" on the keyboard to transform them into construction lines. After that, I mirrored the holes by clicking mirror and highlighting the rectangle that will become the hole, and lastly click on the coustruction line that goes from top to bottom to mirror the rectangle to the other side. Then I do the same thig again but now I select the original rectangle as well as the one I just created and use the other counstrucion line to mirror the rectangles lower on the sides.</p>
+                                <p style="text-align:center;"><img src="images/mirror.PNG" height="40%" width="40%" alt="" />
+                                <p>Now the sketch looks like this.</p>
+                                <p style="text-align:center;"><img src="images/top.PNG" height="60%" width="60%" alt="" />
+                                <p>After that, I clicked "e" on the keyboard to extrude all the sections on the sketch I created exept the 4 rectangles I mirrored. I extruded the the top component downwards, into the sides length that is equal to the parameter "þyktt". The nex thing I did was to click on combine</p>
+                                <p style="text-align:center;"><img src="images/combine.PNG" height="40%" width="40%" alt="" />
+                                <p>and use the side component as my target body and the top component as my tool body, click on cut and keep tools. Then I did the same thing to the other side. After that I rounded the edges the same way as before.</p>
+                                <p style="text-align:center;"><img src="images/combine2.PNG" height="40%" width="40%" alt="" />
+                                <p>Now the design had 3 components, one top that fits on to the two sides.</p>
+                                <p style="text-align:center;"><img src="images/topandlegs.PNG" height="60%" width="60%" alt="" />
+                                <p>Since I want this laptop stand to be stable, I decided to add a supporting components to the design. I started by creating an offset plane</p>
+                                <p style="text-align:center;"><img src="images/offsetplane.PNG" height="40%" width="40%" alt="" />
+                                <p>from the back of the sides and I offseted it according to my parameters.</p>
+                                <p style="text-align:center;"><img src="images/offsetplane2.PNG" height="60%" width="60%" alt="" />
+                                <p>After that, I started a sketch on thet plane and clicked on "Intersect" and clicked on bodies and then selected both of the sides.</p>
+                                <p style="text-align:center;"><img src="images/intersect.PNG" height="40%" width="40%" alt="" />
+                                <p>I then drew a rectangle that I sized according to my parameters and highlighted the parts of the sketch that I want to extrude according to my parameters.</p>
+                                <p style="text-align:center;"><img src="images/extrudebottom.PNG" height="60%" width="60%" alt="" />
+                                <p>I then made another supporting component the same way as before, but the offset plane is found from the front of the sides as opposed from the back. Then I rounded the edges the same way as I have done before. After that I used the combine button the same way as I have done before and used one side as the target body ans both the support components as the tool bodies. Then I did the same thing to the other side.</p>
+                                <p>Now the object had been completed and it looked like this.</p>
+                                <p style="text-align:center;"><img src="images/complete.PNG" height="60%" width="60%" alt="" />
+                                    
+                                <h4>Measure the kerf</h4>
+                                <p>Measuring the kerf was worked in a group. My groupmembers were Hrannar Þórarinsson, <a href="https://hrannarth.github.io/">his website</a> and Magnús Snær Ríkarðsson, <a href="https://magnusrikardsson.github.io/vefsida/index.html">his website</a>.</p>
+                                <p>We went to fablab Reykjavík and in fusion 360 we drew a 100*10mm rectangle with cut-lines with 10mm intervals inside the rectangle. We sent that file to the laser cutter and ended up with the following.</p>
+                                <p style="text-align:center;"><img src="images/kerfcut.jpg" height="60%" width="60%" alt="" />
+                                <p>After that we took one square out of the rectangular space and measured the empty space, that space was measuerd to be 12,08mm. Next we measured the square that we removed, that square was measured to be 9,8mm. In total there were 11 lasercuts done on the rectangle so to measure the kerf we used the formula (12,08-9,8)/11 = <b>0,207</b> which is our kerf. I then went to my parameters and set the parameter "kerf" to 0,207.</p>
+                                <p style="text-align:center;"><img src="images/measuring.jpg" height="60%" width="60%" alt="" />
+                                    
+                                <h4>DXF for laser</h4>
+                                <p>Personally I thought that this was the most tricky part of the project, so I was really happy when I found this add-on to Fusion 360. The add on is called DXF for laser and you can find the add-on <a href="https://apps.autodesk.com/FUSION/en/Detail/Index?id=7634902334100976871&appLang=en&os=Win64&autostart=true">here</a>. Now all I had to do to was click on "Save DXF for laser cutting" and then select a face ant set the laser kerf to the parameter called "kerf".</p>
+                                <p style="text-align:center;"><img src="images/saveDXF.PNG" height="25%" width="25%" alt="" />
+                                <p style="text-align:center;"><img src="images/saveDXF2.PNG" height="25%" width="25%" alt="" />
+                                <p>Then I did the same thing for the other faces of the design.</p>
+                                
+                                <h4>Gimp</h4>
+                                <p>Since I wanted to engrave a photo on the laptop stand, I decided to use the program <a href="https://www.gimp.org/downloads/">Gimp</a> to do that. I had no previous knowledge on this, I decided to look for videos on that program and found <a href="https://www.youtube.com/watch?v=Y-0ZcuhCsAU&t=441s&ab_channel=InnisfilideaLAB%26Library&fbclid=IwAR1ZjzfCGLPLcX2rkIiZM6syyBDEpAqiDHjZXjh58wBGZMGQ8iFTSaiKt4Y">this</a> and <a href="https://www.youtube.com/watch?v=UBKXeSfuVyk&t=429s&ab_channel=LaserGraffiti&fbclid=IwAR0JBIjKG3j0NV_7HkqCb_zk8Q4UOAotaT_Ev-sFKCuYOEXsWjC2jt1h8NQ">this</a> videos which helped me greatly understand how Gimp works, and also a little bit about moving the photos into Inkscape, a program that I will go more into later. To start of I needed to find a photo That I would like to use, and I decided to use the following photo.</p>
+                                <p style="text-align:center;"><img src="images/beach.jpg" height="40%" width="40%" alt=""/>
+                                <p>I uploaded this photo into Gimp and since I wanted to make the photo a circle I had to click on ellipse and choose the part of the photo I wanted.</p>
+                                <p style="text-align:center;"><img src="images/ellipse.PNG" height="70%" width="70%" alt="" />
+                                <p>After that, I had to click on invert and then press delete to only be left with what is inside the circle.</p>
+                                <p style="text-align:center;"><img src="images/invert.PNG" height="70%" width="70%" alt="" />
+                                <p>After that, I had to click on invert again and then press the button crop to selection to crop the photo.</p>
+                                <p style="text-align:center;"><img src="images/crop.PNG" height="70%" width="70%" alt="" />
+                                <p>After that, I chose a filter that I liked and then played around with the settings that pop up until I liked the photo.</p>
+                                <p style="text-align:center;"><img src="images/artistic.PNG" height="70%" width="70%" alt="" />
+                                <p>Finally, I had gotten a photo which I was satisfied to have on my design.</p>
+                                <p style="text-align:center;"><img src="images/logo.jpg" height="60%" width="60%" alt="" />
+                                
+                                
+                                
+                                <h4>Inkscape</h4>
+                                <p>To combine all of the files that I had completed I decided to use the program <a href="https://inkscape.org/">Inkscape</a>. Since I had no previous experience in Inkscape, I decided to watch some videos to learn, I found the following videos to be very helpful. <a href="https://www.youtube.com/watch?v=zN0jkUGdObw&ab_channel=Dutch">Video1</a> was very helpful and tought me how to connect all the lines in Inkscape. <a href="https://www.youtube.com/watch?v=iF8Tn-4U7_M&ab_channel=FabLab%C3%8Dsland&fbclid=IwAR13_R_o7iJGxANpS9gjw80dUJ-KYNx5n0TvQf6vMN9QsOkVD4Pn2mzDK7M">Video2</a>  and the last quarter of <a href="https://www.youtube.com/watch?v=Y-0ZcuhCsAU&t=441s&ab_channel=InnisfilideaLAB%26Library&fbclid=IwAR33uy-7zLDIvi-vnyvaT17Lks-9QI-VT2kS7nTIl29o4koXh92du2g1tz8">Video3</a> helped me get a good understanding on the basics of Inkscape.</p>
+                                <p>I started of by setting the size of the document to the dimensions of the wood that I will be cutting. I did that by clicking on "File" in the top-left corner and selecting document properties from the drop-down. Then I typed in the correct dimensions.</p>
+                                <p style="text-align:center;"><img src="images/documentproperties.PNG" height="60%" width="60%" alt="" />
+                                <p>Then I draged the DXF files I had previously created in to Inkscape.</p>
+                                <p style="text-align:center;"><img src="images/inkscape1.PNG" height="60%" width="60%" alt="" />
+                                <p>Now I had to check if all the lines on my objects are connected. I did this by highligting an object and clicking a color at the bottom to fill it, as seen in "Video1". I did that and saw that the objects did not fill as seen in the following photo.</p>
+                                <p style="text-align:center;"><img src="images/leisermynd.PNG" height="60%" width="60%" alt="" />
+                                <p>This is a really simple fix, I simply followed the instructions in "Video1" to connect all the nodes in an object. After that I tried to click fill again to see what happened and saw that it worked perfectly.</p>
+                                <p style="text-align:center;"><img src="images/leisermynd2.PNG" height="60%" width="60%" alt="" />
+                                <p>I then did this to the other two elements of my design and after that I copied the elements which I need two of, the side and the support element. Lastly I placed all the components of the design on the document itself.</p>
+                                <p style="text-align:center;"><img src="images/leisermynd3.PNG" height="60%" width="60%" alt="" />
+                                <p>Now I had to add the photo that I had previously created in to Inkscape. I resized the photo by holding ctrl on the keyboard, select a corner on the photo and drag it to make it a size that I was happy with. After that, I selected both the photo and the top component anc clicked "shift+ctrl+A" on the keyboard to get the align window. in that widow I selected "Relative to biggest object" and clicked on the following to buttons to put the photo in the center of the top component. </p>
+                                <p style="text-align:center;"><img src="images/inkscapealign.PNG" height="40%" width="40%" alt="" />
+                                <p>Now I only had to had to click "shift+ctrl+F" to open the fill and stroke window. For the photo I clicked on "Stroke paint" and selected "No paint" an for all the other components I clicked on "Stroke style" and changed the width to 0,02mm. After all that was completed, I saved the following as a pdf file.</p>
+                                <p style="text-align:center;"><img src="images/leisermynd4.PNG" height="60%" width="60%" alt="" />
+                                    
+                                <h4>Laser cutting</h4>
+                                <p>Now that it was time start the laser cutting process, I made my way to fablab. I decided to get help on how the laser cutter works from a member of the fablab team, and that proved to be extremely helpful. I copied the pdf fil that I had previously created and put it on a USB key that I then pluggen in to the computer that controls the laser cutter. This is the printer which was used.</p>
+                                <p style="text-align:center;"><img src="images/printer.jpg" height="60%" width="60%" alt="" />
+                                <p>I followed all the instructional settings and started printing.</p>
+                                <p style="text-align:center;"><img src="images/printing.jpg" height="60%" width="60%" alt="" />
+                                <p>After the laser cutting has finished, I put the object together and was really happy with the outcome and will definetly use this in the future. Hera come two photos that show the object in action.</p>
+                                <p style="text-align:center;"><img src="images/laptopstand1.jpg" height="60%" width="60%" alt="" />
+                                <p style="text-align:center;"><img src="images/laptopstand2.jpg" height="60%" width="60%" alt="" />
+                                <p style="text-align: center">Below you can find the PDF file that I used.</p>
+								<ul class="actions special">
+									<li><a href="laser-cut/complete_stefan.pdf" class="button large">PDF file</a></li>
+								</ul>
+
+                                
+                                <h4>Time log</h4>
+
+                                <table>
+                                  <tr>
+                                    <th>Work breakdown</th>
+                                    <th>Time</th>
+                                  </tr>
+                                  <tr>
+                                    <td>Decide on a design</td>
+                                    <td>4 hours</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Study Inventor and design the object</td>
+                                    <td>10 hours</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Measure the actual kerf</td>
+                                    <td>1 hour</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Learn how to add kerf and save files with kerf</td>
+                                    <td>5 hours</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Study Gimp and design the photo</td>
+                                    <td>2 hours</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Study Inkscape and complete all the Inkscape related work</td>
+                                    <td>3 hours</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Laser cutting and assembly</td>
+                                    <td>0,5 hours</td>
+                                  </tr>
+                                <tr>
+                                    <td><b>Total</b></td>
+                                    <td><b>25,5 hours</b></td>
+                                  </tr>
+                                </table>
+                                
+                                <h4>Search engine key words</h4>
+                                <p>Laser cut pressfit ideas - useful press fit objects - fusion 360 tutorial - how to measure kerf - how to add kerf to fusion 360 - how to use DXF for laser - gimp tutorial - make images with gimp - inkscape tutorial - connect lines in inkscape</p>
+                                
+                                
+
                                 
 							</section>
 
