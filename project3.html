@@ -148,10 +148,58 @@
                                 
                                 
                                 <h4>3D Scanning</h4>
-                                <p>Later I started to think about what I wanted to scan. I decided on scanning this egg.</p>
-                                
-                                <p>HÆHÆ</p>
-                                
+                                <p>In the beginning, I decided to use <a href="https://www.regard3d.org/">Regard3D</a> to scan the object because I saw that some of the older students did that with good success. I did however not work greatlt for me as I scanned 4 different objects in that program with horrible results. I did not document all of the scans, but I documented the last scan I did, which was a scan of my samsung headphones where I took 74 photos.</p>
+                                <p style="text-align:center;"><img src="images/samsung.jpg" height="60%" width="60%" alt="" />
+                                <p>I followed the tutorial on the Regard 3D website and the first thing I did was to start a new project.</p>
+                                <p style="text-align:center;"><img src="images/newproject.PNG" height="60%" width="60%" alt="" />
+                                <p>I decided to name the project "headphone".</p>
+                                <p style="text-align:center;"><img src="images/headphone.PNG" height="60%" width="60%" alt="" />
+                                <p>After that, I clicked on "Add picture set" and selected all the photos that I took of the headphone. After that I clicked on "Compute matches" and set Keypoint sensitivity and Keypoint mathching ratio to ultra to get the best results.</p>
+                                <p style="text-align:center;"><img src="images/computematches.PNG" height="60%" width="60%" alt="" />
+                                <p>After that I pressed triangulate. That creates a point cloud of the object which can be seen below.</p>
+                                <p style="text-align:center;"><img src="images/pointcloud.PNG" height="60%" width="60%" alt="" />
+                                <p>Then I used the densification command. That creates a dense pointcloud and that makes out the object. The following dialog appears and I kept the original settings.</p>
+                                <p style="text-align:center;"><img src="images/desification.PNG" height="60%" width="60%" alt="" />
+                                <p>Here is the result of the densification.</p>
+                                <p style="text-align:center;"><img src="images/dendification2.PNG" height="60%" width="60%" alt="" />
+                                <p>Next I wanted to generate a surface that connects most of these points. I selected the densification in the project tree and then I clicked on "Create Surface" and used the following settings.</p>
+                                <p style="text-align:center;"><img src="images/settingsss.PNG" height="50%" width="50%" alt="" />
+                                <p>I got the following results which were not ideal.</p>
+                                <p style="text-align:center;"><img src="images/lame.PNG" height="60%" width="60%" alt="" />
+                                <p>This looked nothing like my headphone and at this point, I had decided to not use the program Regard 3D. I decided to try the program 3D Zephyr which can be downloaded <a href="https://www.3dflow.net/3df-zephyr-free/">here</a>. I found <a href="https://www.youtube.com/watch?v=6Dlw2mJ_Yc8&ab_channel=GreenEyedExplorer">this video</a> which goes into the basics on the program and how it works. That video helped me greatly. Since the free version of 3D Zephyr, I could only upload 50 photos at a time so I had to be precise with the photos I took. I completed a couple of failed attempts at scanning but I will not upload them all because that would make this page far to long.</p>
+                                <p>Eventually I deciced to scan a nocco can and on the photo below you can see the can and how the object was set up.</p>
+                                <p style="text-align:center;"><img src="images/noccoCan.jpg" height="60%" width="60%" alt="" />
+                                <p>I took 37 photos of the can and opened 3D Zephyr.I started by clicking on "New project".</p>
+                                <p style="text-align:center;"><img src="images/newprojectzephyr.PNG" height="50%" width="50%" alt="" />
+                                <p>Then a window popped up where I uploaded all the photos of the nocco can.</p>
+                                <p style="text-align:center;"><img src="images/uploadzephyr.PNG" height="50%" width="50%" alt="" />
+                                <p>After that, I clicked next and chose Close range as the category because the nocco can was close to the camera when I took the photos and Deep as the presets because that increases the number of keypoints and makes the scan more detailed.</p>
+                                <p style="text-align:center;"><img src="images/deep.PNG" height="50%" width="50%" alt="" />
+                                <p>Then I clicked next and after that, I clicked on "Run". This process took about 8 minutes.</p>
+                                <p style="text-align:center;"><img src="images/runzephyr.PNG" height="50%" width="50%" alt="" />
+                                <p>Some of the photos could not be used due to an error, but I decided to keep going because I had tried to scan so many things and this had given me the best results yet. A point cloud was generated which can be seen below.</p>
+                                <p style="text-align:center;"><img src="images/pointcloudzephyr.PNG" height="100%" width="100%" alt="" />
+                                <p>Next, I needed to create a dense point cloud. I did that by clicking on "Dense point cloud generation".</p>
+                                <p style="text-align:center;"><img src="images/densepointzephyr.PNG" height="50%" width="50%" alt="" />
+                                <p> I decided to use the setting "Close range" and " High details".</p>
+                                <p style="text-align:center;"><img src="images/highdetails.PNG" height="50%" width="50%" alt="" />
+                                <p>After that, I clicked on next, and then "Run" in the window that pops up. That process tokk a really long time and below is the result.</p>
+                                <p style="text-align:center;"><img src="images/densepointnocco.PNG" height="100%" width="100%" alt="" />
+                                <p>The next step was to mesh extract the object. I clicked on "Mesh extraction".</p>
+                                <p style="text-align:center;"><img src="images/mesh.PNG" height="50%" width="50%" alt="" />
+                                <p>Again I used the settins "Close range" and "High details"</p>
+                                <p style="text-align:center;"><img src="images/settingszephyr2.PNG" height="50%" width="50%" alt="" />
+                                <p>Then I clicked on next, and in the following window I clicked on "Run". This process took a short time.</p>
+                                <p style="text-align:center;"><img src="images/loadmesh.PNG" height="50%" width="50%" alt="" />
+                                <p>When that was completed, I was left wit the following.</p>
+                                <p style="text-align:center;"><img src="images/meshnocco.PNG" height="100%" width="100%" alt="" />
+                                <p>I wanted to make a textured mesh and I did that by clicking on "Textured mesh generation".</p>
+                                <p style="text-align:center;"><img src="images/texturedmesh.PNG" height="50%" width="50%" alt="" />
+                                <p>I kept all the preset settings and eventually I clicked on "Run". This process was completed almost instantly.</p>
+                                <p style="text-align:center;"><img src="images/texturedmesh2.PNG" height="50%" width="50%" alt="" />
+                                <p>After that was finished, I was left with the following model.</p>    
+                                <p style="text-align:center;"><img src="images/texturedmeshnocco.PNG" height="100%" width="100%" alt="" />
+                                <p>unfortionately most of the photos that recieved the error in the beginning of the scan were photos from the top, so the top is not perfect.
 
                                 
                                 <h4>Time log</h4>
@@ -183,24 +231,28 @@
                                   </tr>
                                   <tr>
                                     <td>3D print the design</td>
-                                    <td>1 hours</td>
+                                    <td>1 hour</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Educate myself on 3D Zephyr</td>
+                                    <td>1 hour</td>
                                   </tr>
                                   <tr>
                                     <td>3D scan an object</td>
-                                    <td>??? hours</td>
+                                    <td>6 hours</td>
                                   </tr>
                                   <tr>
                                     <td>Updating website</td>
-                                    <td>3 hours</td>
+                                    <td>5 hours</td>
                                   </tr>
                                   <tr>
                                     <td><b>Total</b></td>
-                                    <td><b>??? hours</b></td>
+                                    <td><b>21,5 hours</b></td>
                                   </tr>
                                 </table>
                                 
                                 <h4>Search engine key words</h4>
-                                <p>Cool 3d prints - 3d object in fusion - Download ultimaker cura - How to use ultimaker cura - Ultimaker cura settings for 3d printing - How to 3D scan an object</p>
+                                <p>Cool 3d prints - 3d object in fusion - Download ultimaker cura - How to use ultimaker cura - Ultimaker cura settings for 3d printing - How to 3D scan an object - How to use Regard3D - How to use 3D Zephyr</p>
                                 
                                 
 
